@@ -1,0 +1,37 @@
+{
+  "name": "noderocket-bmp-180",
+  "version": "0.1.0",
+  "description": "BMP-180 drivers for the Raspberry Pi",
+  "author": "tvalletta <tom@vallettas.com>",
+  "engines": {
+    "node": "~0.12.0"
+  },
+  "cpu": ["arm"],
+  "contributors": [
+    {
+      "name": "gmdayley",
+      "email": "gabriel.dayley@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noderockets/bmp180"
+  },
+  "bugs": {
+    "url": "https://github.com/noderockets/bmp180/issues"
+  },
+  "keywords": [
+    "noderockets",
+    "raspberry pi",
+    "altimeter",
+    "barometric",
+    "pressure",
+    "temperature",
+    "bmp180",
+    "bmp085"
+  ],
+  "dependencies": {
+    "i2c": "*"
+  },
+  "license": "MIT"
+}
